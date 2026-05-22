@@ -115,11 +115,11 @@ c. Frameworks / Libraries Used
 
 All files that have been included:
 
-index.php          -> Login page
-register.php       -> Register page
-dashboard.php      -> Dashboard overview page
-finance.php        -> Finance management page
-study.php          -> Study management page
+index.html          -> Login page
+register.html       -> Register page
+dashboard.html      -> Dashboard overview page
+finance.html        -> Finance management page
+study.html          -> Study management page
 style.css          -> Main styling file
 
 Develop by Nurul Syazwina binti Shoib (2025231844)
