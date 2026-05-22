@@ -379,13 +379,13 @@
             if(!isBreak){
                 isBreak = true;
                 modeBadge.innerText = "Break";
-                timerStatus.innerText = "Break time! <i class="bi bi-cup-hot"></i> Relax a bit";
+                timerStatus.innerText = 'Break time! <i class="bi bi-cup-hot"></i> Relax a bit';
                 timeLeft = breakTime;
                 setTimeout(()=> startTimer(), 2000);
             } else {
                 isBreak = false;
                 modeBadge.innerText = "Focus";
-                timerStatus.innerText = "Back to study! <i class="bi bi-highlighter"></i>";
+                timerStatus.innerText = 'Back to study! <i class="bi bi-highlighter"></i>';
                 timeLeft = focusTime;
                 setTimeout(()=> startTimer(), 2000);
             }
