@@ -1,3 +1,4 @@
+Individual Assignment IMS566
 Project Title 
 PocketFlow : A student finance trackers and study management system
 
@@ -120,3 +121,5 @@ dashboard.php      -> Dashboard overview page
 finance.php        -> Finance management page
 study.php          -> Study management page
 style.css          -> Main styling file
+
+Develop by Nurul Syazwina binti Shoib (2025231844)
