@@ -67,6 +67,7 @@
             <h5 class="section-title mb-0">Pomodoro <i class="bi bi-hourglass-split"></i></h5>
             <span class="mode-badge" id="modeBadge">Focus</span>
         </div>
+        <p id="timerStatus" class="text-muted mb-3">Stay focused!</p>
 
     <div class="timer-circle">
         <div class="timer-display" id="timerDisplay"> 25:00</div>
@@ -207,12 +208,6 @@
         ) || [];
     }
 
-    function getClasses() {
-        return JSON.parse(
-            sessionStorage.getItem("classes")
-        ) || [];
-    }
-
     function saveClasses(data) {
         sessionStorage.setItem(
             "classes",
@@ -321,8 +316,7 @@
 
                 if(found){
                 html += `<td rowspan="${found.duration}">
-                    <div class="subject-box" style="background:${found.color}; min-height:${found.duration * 70}px;"
-                        background:${found.color};
+                    <div class="subject-box" style="background:${found.color}; 
                         color:white;
                         border-radius:16px;
                         height:100%;
